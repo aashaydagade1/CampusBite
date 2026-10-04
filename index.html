@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusBite - Campus Food Ordering</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            color: #222;
+            text-align: center;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 20px;
+        }
+
+        .card {
+            max-width: 650px;
+            width: 100%;
+            background: white;
+            padding: 45px 30px;
+            border-radius: 24px;
+            box-shadow: 0 10px 35px rgba(0,0,0,0.10);
+        }
+
+        .logo {
+            font-size: 70px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 19px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .download {
+            display: inline-block;
+            background: #111;
+            color: white;
+            text-decoration: none;
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .download:hover {
+            opacity: 0.85;
+        }
+
+        .features {
+            text-align: left;
+            margin: 25px auto;
+            max-width: 420px;
+        }
+
+        .features h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .features li {
+            margin: 10px 0;
+            list-style: none;
+        }
+
+        .features li::before {
+            content: "✓ ";
+            font-weight: bold;
+        }
+
+        .note {
+            font-size: 13px;
+            color: #777;
+            margin-top: 25px;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero">
+        <div class="card">
+
+            <div class="logo">🍔</div>
+
+            <h1>CampusBite</h1>
+
+            <p class="tagline">
+                Full-Stack Campus Food Ordering App
+            </p>
+
+            <a
+                class="download"
+                href="https://github.com/aashaydagade1/CampusBite/releases/download/v1.0.0/application-d72ccbb4-2d8c-4720-a7ff-6c70e91b5591.apk"
+            >
+                📱 Download Android APK
+            </a>
+
+            <div class="features">
+
+                <h2>Features</h2>
+
+                <ul>
+                    <li>Student Signup & Login</li>
+                    <li>Food Menu</li>
+                    <li>Cart & Checkout</li>
+                    <li>Order Placement</li>
+                    <li>Mock Payment</li>
+                    <li>Vendor Order Management</li>
+                    <li>Order Tracking</li>
+                    <li>Notifications</li>
+                </ul>
+
+            </div>
+
+            <p class="note">
+                CampusBite Android v1.0.0<br>
+                Project demonstration and testing build.
+            </p>
+
+            <footer>
+                © 2026 CampusBite
+            </footer>
+
+        </div>
+    </div>
+
+</body>
+</html>
